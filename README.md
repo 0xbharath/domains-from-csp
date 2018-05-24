@@ -7,7 +7,7 @@ A Python script to parse domain names from CSP header
 
 ## Demo
 
-![script-in-action](imgs/csp.gif)
+![script-in-action](csp.gif)
 
 ## Screenshots
 
@@ -51,14 +51,9 @@ Options:
 
 - Parse the CSP header for domain names but don't do DNS resolution
 
-```
-$ 
-```
-
-- Only subdomain enumeration
 
 ```
-$ $ python csp_parser.py target_url
+$ python csp_parser.py target_url
 ```
 
 - Parse the CSP header for domain names and also do DNS resolution
