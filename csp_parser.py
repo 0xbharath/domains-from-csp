@@ -25,13 +25,6 @@ __version__ = "0.0.1"
 __purpose__ = '''Parse and print domain names from Content Security Policy(CSP) header'''
 
 
-# https://stackoverflow.com/questions/16891340/remove-a-prefix-from-a-string
-def remove_prefix(text, prefix):
-    if text.startswith(prefix):
-        return text[len(prefix):]
-    return text  # or whatever
-
-
 def clean_domains(domains):
     clean_domains_set = set()
     for domain in set(domains):
