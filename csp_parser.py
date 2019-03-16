@@ -111,7 +111,7 @@ def check_whois_domains(domains):
 @click.option('--check-whois/--no-check-whois', '--whois', default=False,
               help='Check for domain availability')
 @click.option('--output', '-o', default=False,
-              help='Save into a json file')
+              help='Save results into a json file')
 def main(url, resolve, check_whois, output):
     csp_header = get_csp_header(url)
     # Retrieve list of domains "clean" or not
