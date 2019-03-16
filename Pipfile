@@ -8,6 +8,8 @@ name = "pypi"
 [packages]
 requests = "*"
 click = "*"
+tldextract = "*"
+pythonwhois = "*"
 
 [requires]
 python_version = "2.7"
